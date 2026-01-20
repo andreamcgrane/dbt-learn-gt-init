@@ -11,7 +11,6 @@ orders as (
 ),
 
 customer_orders as (
-stg_stripe_payments
     select
         customer_id,
 
