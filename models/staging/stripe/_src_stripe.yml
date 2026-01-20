@@ -8,8 +8,8 @@ sources:
           loaded_at_field: _batched_at
           freshness:
             warn_after: 
-              count: 12
+              count: 24
               period: hour
             error_after:
-              count: 24
+              count: 48
               period: hour
